@@ -1,0 +1,7 @@
+digraph "com.davidciani.labs.pdfforms:pdfforms:jar:1.0-SNAPSHOT" { 
+	"com.davidciani.labs.pdfforms:pdfforms:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"com.davidciani.labs.pdfforms:pdfforms:jar:1.0-SNAPSHOT" -> "org.apache.pdfbox:pdfbox:jar:2.0.22:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.apache.pdfbox:pdfbox:jar:2.0.22:compile" -> "org.apache.pdfbox:fontbox:jar:2.0.22:compile" ; 
+	"org.apache.pdfbox:pdfbox:jar:2.0.22:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+ } 
